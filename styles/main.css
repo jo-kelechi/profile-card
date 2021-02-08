@@ -1,0 +1,65 @@
+/* Stylesheet in CSS for profile card component @frontendmentor.io */
+
+* { margin: 0; padding: 0;}
+
+body {
+   text-align: center;
+   font-size: 18px;
+   font-weight: 700;
+   font-family: 'Kumbh Sans', sans-serif;
+   background-color:  hsl(185, 75%, 39%);
+}
+
+.attribution { font-size: 11px; font-weight: 400; bottom: 0; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution, .card {
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.card {
+   top: 50%;
+   width: 350px;
+   border-radius: 12px;
+   background-color: #ffffff;
+}
+.card-top {
+   border-radius: 12px 12px 0 0;
+}
+.card-pic {
+   margin-top: -56px;
+   border-radius: 50%;
+   border: 5px solid #ffffff;
+}
+
+.card-info {
+   padding: 20px 0;
+}
+.card-info h1 {
+   font-size: 18px;
+}
+.card-info h1 span {
+   margin-left: 10px;
+}
+.card-info p {
+   padding: 6px 0 4px 0;
+   font-size: 14px;
+}
+
+.card-bottom {
+   padding: 22px 0;
+   border-top: 1px solid hsl(0, 0%, 88%);
+}
+.stat {
+   width: 28%;
+   display: inline-block;
+}
+.stat span {
+   font-size: 11px;
+}
+
+.card-info p, .card-info h1 span, .stat span {
+   font-weight: 400;
+   color: hsl(0, 0%, 59%);
+}
