@@ -1,12 +1,16 @@
 /* Stylesheet in CSS for profile card component @frontendmentor.io */
 
-* { margin: 0; padding: 0;}
+* { margin: 0; padding: 0; }
 
 body {
    text-align: center;
    font-size: 18px;
    font-weight: 700;
    font-family: 'Kumbh Sans', sans-serif;
+   background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+   background-repeat: no-repeat;
+   background-position-x: -30%, 118%;
+   background-position-y: 30%, -60%;
    background-color:  hsl(185, 75%, 39%);
 }
 
@@ -21,16 +25,17 @@ body {
 .card {
    top: 50%;
    width: 350px;
-   border-radius: 12px;
-   background-color: #ffffff;
+   border-radius: 15px;
+   background-color: white;
+   box-shadow: 10px hsl(227, 10%, 46%), 5px hsl(229, 23%, 23%);
 }
 .card-top {
-   border-radius: 12px 12px 0 0;
+   border-radius: 15px 15px 0 0;
 }
 .card-pic {
    margin-top: -56px;
    border-radius: 50%;
-   border: 5px solid #ffffff;
+   border: 5px solid white;
 }
 
 .card-info {
@@ -61,5 +66,5 @@ body {
 
 .card-info p, .card-info h1 span, .stat span {
    font-weight: 400;
-   color: hsl(0, 0%, 59%);
+   color: hsl(227, 10%, 46%);
 }
