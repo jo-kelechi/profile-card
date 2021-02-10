@@ -4,13 +4,14 @@
 
 body {
    text-align: center;
+   color: hsl(229, 23%, 23%);
    font-size: 18px;
    font-weight: 700;
    font-family: 'Kumbh Sans', sans-serif;
    background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
    background-repeat: no-repeat;
-   background-position-x: -30%, 118%;
-   background-position-y: 30%, -60%;
+   background-position-x: 5vw, 50vw;
+   background-position-y: -30vh, 50vh;
    background-color:  hsl(185, 75%, 39%);
 }
 
@@ -27,7 +28,7 @@ body {
    width: 350px;
    border-radius: 15px;
    background-color: white;
-   box-shadow: 10px hsl(227, 10%, 46%), 5px hsl(229, 23%, 23%);
+   box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
 }
 .card-top {
    border-radius: 15px 15px 0 0;
