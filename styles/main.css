@@ -2,6 +2,8 @@
 
 * { margin: 0; padding: 0; }
 
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 body {
    text-align: center;
    color: hsl(229, 23%, 23%);
@@ -46,7 +48,7 @@ body {
    font-size: 18px;
 }
 .card-info h1 span {
-   margin-left: 10px;
+   margin-left: 8px;
 }
 .card-info p {
    padding: 6px 0 4px 0;
@@ -62,7 +64,7 @@ body {
    display: inline-block;
 }
 .stat span {
-   font-size: 11px;
+   font-size: 12px;
 }
 
 .card-info p, .card-info h1 span, .stat span {
